@@ -53,10 +53,11 @@ The project involved:
 ![](data_model.png)
 
 
-###	Creating a dedicated calendar table for time-based analysis.
-![](introduction.png)
+###	Creating a dedicated calendar table for time-based analysis.:
+A dedicated Calendar table was created instead of relying on Power BI's Auto Date/Time feature. This was done because the Onboarding Date in one of the dimension tables was creating potential date relationship conflicts with the Order Date, so a separate calendar table provided better control over time-based analysis and ensured accurate sales trend calculations.
+![](DIM_DATE.png)
 
-###Developing DAX measures to calculate business performance indicators.
+### Developing DAX measures to calculate business performance indicators.
 
 ![](dax_1.png)
 
